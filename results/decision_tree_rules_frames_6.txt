@@ -1,0 +1,13 @@
+|--- recency_distance <= 7.50
+|   |--- frequency <= 42.00
+|   |   |--- frequency <= 32.00
+|   |   |   |--- recency_rank <= 4.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- recency_rank >  4.50
+|   |   |   |   |--- class: 0
+|   |   |--- frequency >  32.00
+|   |   |   |--- class: 1
+|   |--- frequency >  42.00
+|   |   |--- class: 0
+|--- recency_distance >  7.50
+|   |--- class: 1

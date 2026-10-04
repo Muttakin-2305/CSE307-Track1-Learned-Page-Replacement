@@ -1,0 +1,7 @@
+|--- recency_distance <= 16.00
+|   |--- recency_distance <= 2.50
+|   |   |--- class: 0
+|   |--- recency_distance >  2.50
+|   |   |--- class: 0
+|--- recency_distance >  16.00
+|   |--- class: 1

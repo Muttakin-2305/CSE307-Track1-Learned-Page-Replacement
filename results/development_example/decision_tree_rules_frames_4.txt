@@ -1,0 +1,40 @@
+|--- recency_distance <= 1.50
+|   |--- frequency_rank <= 3.50
+|   |   |--- frequency <= 7.50
+|   |   |   |--- frequency_rank <= 2.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- frequency_rank >  2.50
+|   |   |   |   |--- class: 1
+|   |   |--- frequency >  7.50
+|   |   |   |--- frequency <= 53.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- frequency >  53.50
+|   |   |   |   |--- class: 1
+|   |--- frequency_rank >  3.50
+|   |   |--- frequency <= 11.50
+|   |   |   |--- class: 1
+|   |   |--- frequency >  11.50
+|   |   |   |--- frequency <= 15.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- frequency >  15.50
+|   |   |   |   |--- class: 1
+|--- recency_distance >  1.50
+|   |--- frequency <= 3.50
+|   |   |--- frequency_rank <= 3.50
+|   |   |   |--- class: 0
+|   |   |--- frequency_rank >  3.50
+|   |   |   |--- frequency <= 2.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- frequency >  2.50
+|   |   |   |   |--- class: 1
+|   |--- frequency >  3.50
+|   |   |--- recency_rank <= 2.50
+|   |   |   |--- frequency <= 48.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- frequency >  48.50
+|   |   |   |   |--- class: 0
+|   |   |--- recency_rank >  2.50
+|   |   |   |--- frequency <= 41.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- frequency >  41.50
+|   |   |   |   |--- class: 0

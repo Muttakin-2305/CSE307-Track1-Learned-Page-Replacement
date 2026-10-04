@@ -1,0 +1,24 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "frames": [
+    4,
+    6,
+    8
+  ],
+  "phase_length": 300,
+  "total_accesses_per_trace": 600,
+  "page_count": 32,
+  "training": {
+    "source": "before-shift phase",
+    "base_state_for_candidate_examples": "LRU",
+    "label": "Belady victim among current candidates",
+    "classifier": "DecisionTreeClassifier(max_depth=4, min_samples_leaf=8, class_weight='balanced', random_state=42)"
+  },
+  "primary_frame_count_for_report": 6
+}
